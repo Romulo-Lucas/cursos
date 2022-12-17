@@ -1,0 +1,28 @@
+.curssos{  
+    @include centralize-child;
+    flex-direction: column;
+   .cards-conteiner{
+        margin-top: 10px;
+        @include centralize-child;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        .cards{
+            width: clamp(120px,30%,280px);
+            border: solid;
+            position: relative;
+            .img-cards{
+                width: 100%;
+            }
+            .cards-footer{
+                font-size: clamp(12.9px, 0.83vw,17.4px);
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                background-color: $cinza;
+                color: $white ;
+                text-align: center;
+                padding: 2px 0px;
+            }    
+        }
+    }
+}

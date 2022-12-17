@@ -1,0 +1,24 @@
+.contato{  
+  @include centralize-child;
+  flex-direction: column;
+ form{
+    width: 50%;
+    flex-direction: column; 
+    display: flex; 
+    justify-items: center;
+    align-items: center;
+    padding: 0 20%;
+      * {
+        border: solid;   
+        margin-top: 10px;
+        border-radius: 5px;
+        width: 100%;
+        }
+      button{
+        width: clamp(60px,4.5vw,100px);
+        background: $cinza;
+        font-weight: bold;
+        cursor: pointer;
+      }
+  }
+}

@@ -1,0 +1,45 @@
+.rodapé{
+    width: 100%;
+    border-radius: 10px;
+    background-color: $cinza;
+    height: 80px;
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    .tx{
+        padding-top: 10px;
+    }
+    .img-footer{
+        padding-left: 10px;
+    }
+    .info{
+        height: 40%;
+        @include centralize-child;
+        flex-direction: row;
+        @include img-footer;
+        padding-bottom: 10px;
+    }
+    .footer-contato{
+        @include espaco-vertical;
+        .info{
+            .foto{
+                height: 100%;
+            }
+        }
+    }   
+    .footer-redes{
+        @include espaco-vertical;
+        img{
+            cursor: pointer;
+        }
+        .info{
+            justify-content: space-evenly;
+        }
+    }
+    .footer-pg{
+        @include espaco-vertical ;
+        .info{
+            justify-content: space-evenly;
+        }
+    }
+}

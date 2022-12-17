@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  <!---configuraçwoes-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inicial-1.0">
+    <link rel="shortcut icon" href="./imagens/html5.ico" type="image/x-icon">
+    <title>Página Inicial</title>
+
+    <!--importando fonte  robotdo google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    
+
+    <!---limpar configurações do navegador-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <link rel="stylesheet" href="./CSS/indice.css">
+
+</head>    
+<body> <!---corpo-->
+    <header class="topo"> <!---cabeçalho-->
+            <div class="hero">
+                <div class="hero-title">
+                    <h1>Curso de SASS</h1>
+                    <h2>Onde você aprende do jeito certo</h2>
+                </div>
+            </div>
+            <nav class="menubar">
+                <ul class="menu">
+                    <li>
+                        <a href="./HTML/curssos.html">CURSSOS</a> 
+                    </li>
+                    <li>
+                        <a href="#">FOTOS</a>    
+                    </li> 
+                </ul>   
+           </nav>
+    </header>
+    <main class="stripped"> <!---área principal-->
+        <section class="curssos" > 
+            <h2>Cursos</h2>
+            <div class="cards-conteiner"> 
+                <div class="cards">
+                    <img class="img-cards" src="./imagens/html.png" alt="HTML 5">
+                    <div class="cards-footer">HTML 5</div>
+                </div> 
+                <div class="cards">
+                    <img class="img-cards" src="./imagens/sass.png" alt="SASS" >
+                    <div class="cards-footer">SASS</div>
+                </div> 
+                <div class="cards">
+                    <img class="img-cards" src="./imagens/js.png" alt="Java Script" >
+                    <div class="cards-footer">Java Script</div>
+                </div> 
+            </div>   
+        </section>
+        <section class="vantagens">
+            <h2>Vantagens</h2>
+            <div class="vantagens-conteiner">
+                <div class="vantagens-texto">
+                <h3>Teórico</h3>
+                <p>&#x1F596; Neste curso quem nunca programou sequer uma linha de código conseguirá realizar
+                     projetos web e criar sites! Do absoluto zero a níveis profissionais. 
+                     (Veja os projetos que criaremos nas aulas de demonstração gratuita)
+
+                    O curso cobre os principais conceitos de HTML e CSS, reforça a utilização 
+                    de tags e regras de CSS no mundo real, ou seja, você terá além da explicação teórica uma experiência de como a programação web funciona no mercado de trabalho.
+                </p>
+                </div> 
+                <div class="vantagens-texto">
+                    <h3>Prática</h3>
+                    <p>criando uma página utilizando HTML, SASS e JavaScript</p>
+                </div>
+            </div>
+        </section>
+        <section class="contato">
+            <h2>Contato</h2>
+            <form action="">
+                <input type="text" name="nome" id="nome" placeholder="Nome">  
+                <input type="number" name="telefone" id="tel" placeholder="Telefone" min="8" max="11"> 
+                <textarea name="menssagen" id="menssagen" cols="30" rows="10" placeholder="Menssagen"></textarea>
+                <button>Enviar</button>
+            </form> 
+        </section>
+    </main> 
+    <footer class="rodapé">  <!---rodapé-->  
+        <div class="footer-contato">
+            <div class="tx">
+                <h4>Contato</h4>
+            </div>
+            <div class="info">
+                <div class="foto">
+                    <img class="img-footer" src="./imagens/zap.png" alt="whatsapp" > 
+                </div>
+                <h4>(21)98682-8595</h4>
+                <div class="foto">
+                    <img class="img-footer" src="./imagens/tel.png" alt="Telefone" > 
+                </div>
+                <h4>(21)3449-5585</h4>
+            </div>    
+        </div>
+        <div class="footer-redes">
+            <div class="tx">
+                <h4>Redes Sociais</h4>
+            </div>
+            <div class="info">
+                <img class="img-footer" src="./imagens/insta.png" alt="Insta" > 
+                <img class="img-footer" src="./imagens/face.png" alt="Faceboock" >
+            </div>
+        </div>
+        <div class="footer-pg" >
+            <div class="tx">
+                <h4>Formas de Pagamento</h4>
+            </div>
+            <div class="info">
+                <img class="img-footer" src="./imagens/pix.jpg" alt="PIX" >
+                <img class="img-footer" src="./imagens/master.png" alt="Master Card" >
+                <img class="img-footer" src="./imagens/visa.png" alt="Visa" >
+                <img class="img-footer" src="./imagens/american.png" alt="American" >
+          </div>
+        </div>
+    </footer>    
+</body>
+</html>

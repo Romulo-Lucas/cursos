@@ -1,0 +1,10 @@
+.topo{
+    height: clamp(140px, 9vw,220px);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+}

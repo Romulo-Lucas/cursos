@@ -1,0 +1,16 @@
+.vantagens{    
+    @include centralize-child;
+    flex-direction: column;
+    .vantagens-conteiner{
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        .vantagens-texto{
+            width: 50%;
+            text-align: center;
+        }  
+        p{
+            margin: 10px 15px 15px 15px; 
+        }
+    }
+}
