@@ -18,14 +18,12 @@
 }
 @mixin img-footer () {
     .img-footer{
-        height: 70%;
+        height: 100%;
     }  
 }
 @mixin espaco-vertical () {
-    height: 100%;
     @include centralize-child;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .stripped section:nth-child(2n){
@@ -51,12 +49,15 @@ body {
     section{
         margin-top: 20px;
     }
-    @media screen and (max-width: 455px){
+    @media screen and (max-width: 550px){
         section{
             margin-top: 10px;
         }
         .rodapé{
             flex-direction: column;
+            .info{
+                height: 20px;
+           }
         }
     }
     .stripped{

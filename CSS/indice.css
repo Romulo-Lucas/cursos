@@ -22,12 +22,15 @@ body * {
 body section {
   margin-top: 20px;
 }
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 550px) {
   body section {
     margin-top: 10px;
   }
   body .rodapé {
     flex-direction: column;
+  }
+  body .rodapé .info {
+    height: 20px;
   }
 }
 body .stripped {
@@ -206,50 +209,39 @@ body p {
   justify-content: space-evenly;
 }
 .rodapé .tx {
-  padding-top: 10px;
+  margin-top: 10px;
 }
-.rodapé .img-footer {
-  padding-left: 10px;
+.rodapé .foto {
+  height: 100%;
+  margin: 10px 10px;
 }
 .rodapé .info {
-  height: 40px;
+  height: 25px;
   display: flex;
   align-items: center;
   flex-direction: row;
-  padding-bottom: 10px;
+  margin: 10px 0px;
 }
 .rodapé .info .img-footer {
-  height: 70%;
+  height: 100%;
 }
 .rodapé .footer-contato {
-  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
-}
-.rodapé .footer-contato .info .foto {
-  height: 100%;
 }
 .rodapé .footer-redes {
-  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
 }
-.rodapé .footer-redes img {
+.rodapé .footer-redes .foto {
   cursor: pointer;
 }
-.rodapé .footer-redes .info {
-  justify-content: space-evenly;
-}
 .rodapé .footer-pg {
-  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
 }
 .rodapé .footer-pg .info {
   justify-content: space-evenly;

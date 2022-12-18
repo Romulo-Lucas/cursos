@@ -2,38 +2,30 @@
     width: 100%;
     border-radius: 10px;
     background-color: $cinza;
-    //height: 80px;
     margin: 30px 10px;
     display: flex;
     justify-content: space-evenly;
     .tx{
-        padding-top: 10px;
+        margin-top: 10px;
     }
-    .img-footer{
-        padding-left: 10px;
+    .foto{
+        height: 100%;
+        margin: 10px 10px;
     }
     .info{
-        height: 40px;
+        height: 25px;
         @include centralize-child;
         flex-direction: row;
         @include img-footer;
-        padding-bottom: 10px;
+        margin: 10px 0px;
     }
     .footer-contato{
         @include espaco-vertical;
-        .info{
-            .foto{
-                height: 100%;
-            }
-        }
     }   
     .footer-redes{
         @include espaco-vertical;
-        img{
-            cursor: pointer;
-        }
-        .info{
-            justify-content: space-evenly;
+        .foto{
+              cursor: pointer;
         }
     }
     .footer-pg{
