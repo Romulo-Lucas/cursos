@@ -2,7 +2,7 @@
     width: 100%;
     border-radius: 10px;
     background-color: $cinza;
-    height: 80px;
+    //height: 80px;
     margin: 30px 10px;
     display: flex;
     justify-content: space-evenly;
@@ -13,7 +13,7 @@
         padding-left: 10px;
     }
     .info{
-        height: 40%;
+        height: 40px;
         @include centralize-child;
         flex-direction: row;
         @include img-footer;

@@ -4,14 +4,6 @@
   background-color: #ffffff;
 }
 
-@media screen and (max-width: 450px) {
-  section {
-    margin-top: 10px;
-  }
-  .info {
-    height: 10px;
-  }
-}
 body {
   max-width: 10000px;
   min-width: 375px;
@@ -29,6 +21,14 @@ body * {
 }
 body section {
   margin-top: 20px;
+}
+@media screen and (max-width: 455px) {
+  body section {
+    margin-top: 10px;
+  }
+  body .rodapé {
+    flex-direction: column;
+  }
 }
 body .stripped {
   max-width: 1200px;
@@ -201,7 +201,6 @@ body p {
   width: 100%;
   border-radius: 10px;
   background-color: rgb(189, 189, 189);
-  height: 80px;
   margin: 30px 10px;
   display: flex;
   justify-content: space-evenly;
@@ -213,7 +212,7 @@ body p {
   padding-left: 10px;
 }
 .rodapé .info {
-  height: 40%;
+  height: 40px;
   display: flex;
   align-items: center;
   flex-direction: row;

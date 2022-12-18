@@ -32,14 +32,7 @@
     background-color: $white;
 }
 
-@media screen and (max-width: 450px){
-    section{
-        margin-top: 10px;
-    }
-    .info{
-        height: 10px;
-    }
-}
+
  
 body {
     max-width: 10000px;
@@ -57,7 +50,15 @@ body {
     }
     section{
         margin-top: 20px;
+    }
+    @media screen and (max-width: 455px){
+        section{
+            margin-top: 10px;
         }
+        .rodapé{
+            flex-direction: column;
+        }
+    }
     .stripped{
         max-width: 1200px;
     }
